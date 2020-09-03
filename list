@@ -49,3 +49,26 @@ u Undo
 閉じる
 
 
+Tab
+:tabnew ${file} ファイルをタブで開く
+:gt 次のタブへ移動
+:gT 前のタブへ移動
+:{i}gt i番目のタブへ移動
+:tabo 現在のタブ以外を閉じる
+
+Surround
+ds" "を削除
+dst タグを削除
+cs"' "→'に置換
+cst<b> タグを<b>に置換
+ys$" カーソル位置から行末まで囲む
+ysw' カーソル位置から単語単位で囲む
+ysiw) カーソル位置の単語を囲む
+yss" カーソル位置の行を囲む
+
+QuickRun
+:QuickRun -args "arg1 arg2..."
+
+Terminal
+
+
