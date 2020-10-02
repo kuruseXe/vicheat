@@ -70,5 +70,16 @@ QuickRun
 :QuickRun -args "arg1 arg2..."
 
 Terminal
-
+:term ターミナルを開く
+Option
+++close 終了時にウィンドウを閉じる
+++noclose 終了時にウィンドウを閉じない
+++curwin 現在のウィンドウでターミナルを開く
+++rows={height} ターミナルウィンドウの縦幅を指定
+++cols={width} ターミナルウィンドウの横幅を指定
+分割
+:vert term 垂直分割して起動
+:bo term 水平分割して最下部に起動
+:top term 水平分割して最上部に起動
+:tab term タブページを開いて起動
 
