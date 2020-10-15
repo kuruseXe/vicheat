@@ -83,3 +83,23 @@ Option
 :top term 水平分割して最上部に起動
 :tab term タブページを開いて起動
 
+- screen
+ <Ctrl+a>,S 水平分割
+ <Ctrl+a>,| 鉛直分割
+ <Ctrl+a>,<tab> フォーカス移動
+ <Ctrl+a>,c シェル起動
+ <Ctrl+a>,:quit screen終了
+ - copy pe
+ <Ctrl+a>,[ コピーモードに入る
+ Space 1回目:始点、2回目:終点
+ <Ctrl+a>,] ペーストする
+
+- docker
+ - image
+  docker images イメージの確認
+  docker rmi <ID> イメージの削除
+ - container
+  docker ps 動作中のコンテナの確認
+  docker ps -a すべてのコンテナの確認
+  docker rm <ID> コンテナの削除
+
